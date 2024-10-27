@@ -1,13 +1,12 @@
 <template>
-  <Head>
-    <Title>{{ title }}</Title>
-  </Head>
   <div>
-    <h1>Homepage</h1>
-    <nuxt-link to="/about">О нас</nuxt-link>
+    <index-nav-bar></index-nav-bar>
+    <index-page></index-page>
   </div>
 </template>
 
 <script setup lang="ts">
-const title = ref('Главная')
+definePageMeta({
+  layout: 'main',
+})
 </script>
