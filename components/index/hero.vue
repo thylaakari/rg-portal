@@ -6,22 +6,22 @@
       <section class="flex items-center flex-1">
         <div class="flex flex-col w-full">
           <h1
-            class="text-5xl font-extrabold text-center lg:text-7xl 2xl:text-8xl"
+            class="text-4xl md:text-5xl font-extrabold text-center lg:text-7xl 2xl:text-8xl"
           >
             <span
-              class="text-transparent bg-gradient-to-br bg-clip-text from-neutral-200 via-stone-500 to-sky-400 dark:from-teal-200 dark:via-indigo-300 dark:to-sky-500"
+              class="text-transparent bg-gradient-to-br bg-clip-text from-neutral-200 via-stone-500 to-sky-400"
             >
               Интерактивный портал по
             </span>
 
             <span
-              class="text-transparent bg-gradient-to-tr bg-clip-text from-blue-500 via-pink-500 to-red-500 dark:from-sky-300 dark:via-pink-300 dark:to-red-500"
+              class="text-transparent bg-gradient-to-tr bg-clip-text from-blue-500 via-pink-500 to-red-500"
             >
               классической
             </span>
 
             <span
-              class="text-transparent bg-gradient-to-tr bg-clip-text from-neutral-200 via-stone-500 to-sky-400 dark:from-sky-300 dark:via-pink-300 dark:to-red-500"
+              class="text-transparent bg-gradient-to-tr bg-clip-text from-neutral-200 via-stone-500 to-sky-400"
             >
               рентгенологии
             </span>

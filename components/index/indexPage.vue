@@ -43,5 +43,5 @@
 </template>
 
 <script setup lang="ts">
-const isOpen = ref(false)
+const isOpen = ref(false);
 </script>

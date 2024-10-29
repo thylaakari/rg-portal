@@ -1,6 +1,6 @@
 <template>
   <nav class="relative bg-white">
-    <div class="container px-6 py-3 mx-auto md:flex">
+    <div class="container px-6 py-3 mx-auto lg:flex">
       <div class="flex items-center justify-between">
         <router-link to="/">
           <svg
@@ -53,12 +53,12 @@
         </router-link>
 
         <!-- Mobile menu button -->
-        <div class="flex md:hidden">
+        <div class="flex lg:hidden">
           <button
             v-cloak
             @click="isMobileNavOpen = !isMobileNavOpen"
             type="button"
-            class="text-gray-500 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none focus:text-gray-600 dark:focus:text-gray-400"
+            class="text-gray-500 hover:text-gray-600 focus:outline-none focus:text-gray-600"
             aria-label="toggle menu"
           >
             <svg
@@ -104,38 +104,41 @@
             ? 'translate-x-0 opacity-100 '
             : 'opacity-0 -translate-x-full',
         ]"
-        class="absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-white dark:bg-gray-800 md:mt-0 md:p-0 md:top-0 md:relative md:opacity-100 md:translate-x-0 md:flex md:items-center md:justify-between"
+        class="absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-white lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center lg:justify-between"
       >
-        <div class="flex flex-col px-2 -mx-4 md:flex-row md:mx-10 md:py-0">
+        <div class="flex flex-col px-2 -mx-4 lg:flex-row lg:mx-10 lg:py-0">
           <a
             href="#"
-            class="px-2.5 py-2 text-gray-700 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 md:mx-2"
+            class="px-2.5 py-2 text-gray-700 transition-colors duration-300 transform rounded-lg hover:bg-gray-100 lg:mx-2"
             >Статьи</a
           >
           <a
             href="#"
-            class="px-2.5 py-2 text-gray-700 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 md:mx-2"
+            class="px-2.5 py-2 text-gray-700 transition-colors duration-300 transform rounded-lg hover:bg-gray-100 lg:mx-2"
             >Курсы</a
           >
           <a
             href="#"
-            class="px-2.5 py-2 text-gray-700 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 md:mx-2"
-            >Связаться с нами</a
-          >
-          <a
-            href="#"
-            class="px-2.5 py-2 text-gray-700 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 md:mx-2"
+            class="px-2.5 py-2 text-gray-700 transition-colors duration-300 transform rounded-lg hover:bg-gray-100 lg:mx-2"
             >О нас</a
           >
           <a
             href="#"
-            class="px-2.5 py-2 text-gray-700 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 md:mx-2"
+            class="px-2.5 py-2 text-gray-700 transition-colors duration-300 transform rounded-lg hover:bg-gray-100 lg:mx-2"
             >Блог</a
+          >
+
+          <a
+            href="#"
+            class="px-2.5 py-2 text-gray-700 transition-colors duration-300 transform rounded-lg hover:bg-gray-100"
+            >Связаться с нами</a
           >
         </div>
 
-        <div class="relative mt-4 md:mt-0">
-          <a href="#" class="px-2.5 text-gray-700 hover:text-gray-500 md:mx-2"
+        <div class="relative mt-4 lg:mt-0">
+          <a
+            href="#"
+            class="lg:px-2.5 text-gray-700 hover:text-gray-500 lg:mx-2"
             >Личный кабинет &rarr;</a
           >
         </div>
