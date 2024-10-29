@@ -16,12 +16,12 @@
           >
         </div>
       </div>
-      <a href="#">
+      <router-link to="article">
         <h3 class="mt-0.5 text-lg font-medium text-gray-900">
           Отличия бронхопневмонии от плевропневмонии на рентгеноскопии легких
           &rarr;
         </h3>
-      </a>
+      </router-link>
 
       <div class="my-4 flex flex-wrap gap-1">
         <span
