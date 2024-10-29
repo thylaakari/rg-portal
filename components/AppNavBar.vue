@@ -107,10 +107,10 @@
         class="absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-white lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center lg:justify-between"
       >
         <div class="flex flex-col px-2 -mx-4 lg:flex-row lg:mx-10 lg:py-0">
-          <a
-            href="#"
+          <router-link
+            to="/articles"
             class="px-2.5 py-2 text-gray-700 transition-colors duration-300 transform rounded-lg hover:bg-gray-100 lg:mx-2"
-            >Статьи</a
+            >Статьи</router-link
           >
           <a
             href="#"

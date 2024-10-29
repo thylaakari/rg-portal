@@ -5,7 +5,7 @@
   >
     <h2 class="text-4xl font-bold text-gray-900 text-center mb-10">
       Последние статьи &mdash;
-      <router-link to=""
+      <router-link to="/articles"
         ><span
           class="text-transparent bg-gradient-to-tr bg-clip-text from-blue-500 via-pink-500 to-red-500 dark:from-sky-300 dark:via-pink-300 dark:to-red-500"
           >Все статьи &rarr;</span
@@ -15,9 +15,9 @@
     <section
       class="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:items-stretch md:grid-cols-3 md:gap-8"
     >
-      <index-article-card></index-article-card>
-      <index-article-card></index-article-card>
-      <index-article-card></index-article-card>
+      <app-article-card></app-article-card>
+      <app-article-card></app-article-card>
+      <app-article-card></app-article-card>
     </section>
   </section>
 
@@ -43,5 +43,5 @@
 </template>
 
 <script setup lang="ts">
-const isOpen = ref(false);
+const isOpen = ref(false)
 </script>

@@ -3,10 +3,19 @@
     class="hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-sm hover:[animation-duration:_4s]"
   >
     <div class="rounded-[10px] bg-white p-4 sm:p-6">
-      <time datetime="2022-10-10" class="block text-xs text-gray-500">
-        28 окт 2024
-      </time>
-
+      <div class="flex items-center">
+        <span class="text-xs text-gray-500"> 28 окт 2024 </span>
+        <div v-if="watched">
+          <span class="text-xs text-gray-500 px-2">&mdash;</span>
+          <span class="text-xs text-gray-500">Прочитано {{ watched }} раз</span>
+        </div>
+        <div>
+          <span class="text-xs text-gray-500 px-2">&mdash;</span>
+          <span class="text-xs text-gray-500"
+            >{{ commentsCount }} комментариев</span
+          >
+        </div>
+      </div>
       <a href="#">
         <h3 class="mt-0.5 text-lg font-medium text-gray-900">
           Отличия бронхопневмонии от плевропневмонии на рентгеноскопии легких
@@ -33,3 +42,10 @@
     </div>
   </article>
 </template>
+
+<script setup lang="ts">
+const props = defineProps({
+  watched: Number,
+  commentsCount: Number,
+})
+</script>
