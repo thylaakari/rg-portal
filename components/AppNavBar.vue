@@ -136,11 +136,12 @@
         </div>
 
         <div class="relative mt-4 lg:mt-0">
-          <a
-            href="#"
+          <router-link
+            to="/signin"
             class="lg:px-2.5 text-gray-700 hover:text-gray-500 lg:mx-2"
-            >Личный кабинет &rarr;</a
           >
+            Личный кабинет &rarr;
+          </router-link>
         </div>
       </div>
     </div>
