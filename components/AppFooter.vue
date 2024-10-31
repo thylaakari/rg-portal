@@ -75,15 +75,21 @@
         </li>
 
         <li>
-          <a class="text-gray-700 transition hover:text-gray-700/75" href="#">
+          <router-link
+            class="text-gray-700 transition hover:text-gray-700/75"
+            to="/contact"
+          >
             Связаться с нами
-          </a>
+          </router-link>
         </li>
 
         <li>
-          <a class="text-gray-700 transition hover:text-gray-700/75" href="#">
+          <router-link
+            class="text-gray-700 transition hover:text-gray-700/75"
+            to="/about"
+          >
             О нас
-          </a>
+          </router-link>
         </li>
 
         <li>
