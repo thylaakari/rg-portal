@@ -77,15 +77,6 @@
         <li>
           <router-link
             class="text-gray-700 transition hover:text-gray-700/75"
-            to="/contact"
-          >
-            Связаться с нами
-          </router-link>
-        </li>
-
-        <li>
-          <router-link
-            class="text-gray-700 transition hover:text-gray-700/75"
             to="/about"
           >
             О нас
@@ -93,9 +84,21 @@
         </li>
 
         <li>
-          <a class="text-gray-700 transition hover:text-gray-700/75" href="#">
+          <router-link
+            class="text-gray-700 transition hover:text-gray-700/75"
+            to="/blog"
+          >
             Блог
-          </a>
+          </router-link>
+        </li>
+
+        <li>
+          <router-link
+            class="text-gray-700 transition hover:text-gray-700/75"
+            to="/contact"
+          >
+            Связаться с нами
+          </router-link>
         </li>
       </ul>
       <p class="mx-auto mt-6 max-w-md text-center text-gray-600">

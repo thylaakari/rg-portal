@@ -122,10 +122,10 @@
             class="px-2.5 py-2 text-gray-700 transition-colors duration-300 transform rounded-lg hover:bg-gray-100 lg:mx-2"
             >О нас</router-link
           >
-          <a
-            href="#"
+          <router-link
+            to="/news"
             class="px-2.5 py-2 text-gray-700 transition-colors duration-300 transform rounded-lg hover:bg-gray-100 lg:mx-2"
-            >Блог</a
+            >Блог</router-link
           >
 
           <router-link
