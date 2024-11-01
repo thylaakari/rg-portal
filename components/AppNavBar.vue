@@ -142,6 +142,12 @@
           >
             Личный кабинет &rarr;
           </router-link>
+          <router-link
+            to="/dashboard"
+            class="lg:px-2.5 text-gray-700 hover:text-gray-500 lg:mx-2"
+          >
+            (Макет кабинета)
+          </router-link>
         </div>
       </div>
     </div>
